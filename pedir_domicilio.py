@@ -10,7 +10,7 @@ print(lista)
 total = lista ["pizza x1"] + lista ["hamburguesa x3"] + lista ["gaseosa x1"]
 print("valor total del pedido", total)
 
-propina = total * (5/100)
+propina = total * 0.05
 suma = total + propina
 print("propina", propina)
 print("total de la cuenta", suma)

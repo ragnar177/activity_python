@@ -3,7 +3,8 @@ accion_one = "estoy en la entradad del evento"
 accion_two = "me estoy registrando"
 
 dato_comparacion = 18 and 19 and 21
-edad = 20
+edad = 21
+
 boleta = True
 prick_zone = 1
 
