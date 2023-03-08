@@ -1,15 +1,4 @@
-"""
-#no grafico
-inicio
-1. ingresar sus datos prsonales
-2. ingrese moneda origen
-3. si esta es existente segir con el proceso
-4. ingresar moneda destino 
-5. si esta es existente segir con el proceso
-6. mostrar el pocentaje de intercambio para confirmar el cambio 
-7. si si lo desea realizar confirmar, si no cancelar
 
-"""
 
 #caso number 1
 
@@ -39,12 +28,14 @@ list_1 = {
     'sol': 'sol'
 }
 list_dolar = {
-    'usd': 5000,
+    'usd': 1,
     'euro': 1,
     'cod': 5000,
     'yen': 150,
     'sol': 4
 }
+
+porcentaje_divisa = ((list_dolar['cod'] * how_moch) * (1/100))
 
 dolar_1 = ((how_moch * list_dolar['cod']) - ((list_dolar['cod'] * how_moch) * (1/100)))
 
@@ -54,6 +45,18 @@ dolar_3 = ((how_moch * list_dolar['yen']) - ((list_dolar['yen'] * how_moch) * (1
 
 dolar_4 = ((how_moch * list_dolar['sol']) - ((list_dolar['sol'] * how_moch) * (1/100)))
 
+list_euro = {
+    'usd': 1,
+    'euro': 1,
+    'cod': 5000,
+    'yen': 150,
+    'sol': 4
+}
+
+
+
+
+
 
 
 
@@ -62,7 +65,7 @@ if currency_origin == list_1['usd']  or currency_origin == list_1['euro'] or cur
 else:
     print("your divisa is false")
 if currency_destination == list_1['cod']:
-    print("este es su nuevo valos en pesos colombianos", dolar_1)
+    print("este es su nuevo valos en pesos colombianos", dolar_1, ", este es el porcentaje a descontar por su camio de moneda", porcentaje_divisa)
 if currency_destination == list_1['euro']:
     print("este es su nuevo valos en pesos euros", dolar_2)
 if currency_destination == list_1['yen']:
