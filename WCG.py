@@ -50,10 +50,10 @@ if currency_origin == list_1['usd']  or currency_origin == list_1['euro'] or cur
 else:
     print("your divisa is false")
 if currency_destination == list_1['cod'] and currency_origin == list_1['usd']:
-    print("este es su nuevo valos en pesos colombianos", cod_usd, ", este es el porcentaje descontado por su intermercion, tener en cuentas que este porcentaje es superior a 10% asi que se decontaran:", porcentaje_divisa_usd)
+    print("este es su nuevo valor en pesos colombianos", cod_usd, ", este es el porcentaje descontado por su intermercion, tener en cuentas que este porcentaje es superior a 10% asi que se decontaran:", porcentaje_divisa_usd)
 if currency_destination == list_1['cod'] and currency_origin == list_1['yen']:
-    print("este es su nuevo valos en pesos euros", cod_yen, ", este es el porcentaje descontado por su intermercion, :", porcentaje_divisa_yen)
+    print("este es su nuevo valor en pesos colombianos", cod_yen, ", este es el porcentaje descontado por su intermercion, :", porcentaje_divisa_yen)
 if currency_destination == list_1['cod'] and currency_origin == list_1['euro']:
-    print("este es su nuevo valos en pesos yenes", cod_euro, ", este es el porcentaje descontado por su intermercion, tener en cuentas que este porcentaje es superior a 10% asi que se decontaran:", porcentaje_divisa_euro)
+    print("este es su nuevo valor en pesos colombianos", cod_euro, ", este es el porcentaje descontado por su intermercion, tener en cuentas que este porcentaje es superior a 10% asi que se decontaran:", porcentaje_divisa_euro)
 if currency_destination == list_1['cod'] and currency_origin == list_1['sol']:
-    print("este es su nuevo valos en pesos soles", cod_sol, ", este es el porcentaje descontado por su intermercion:", porcentaje_divisa_sol)
+    print("este es su nuevo valor en pesos colombianos", cod_sol, ", este es el porcentaje descontado por su intermercion:", porcentaje_divisa_sol)
